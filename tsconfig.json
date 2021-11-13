@@ -1,3 +1,4 @@
+// all flags that are related to folders should be declared at the specific service folder
 {
     "compilerOptions": {
         "lib": [
@@ -8,7 +9,6 @@
         "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
-        "outDir": "./dist",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "strictPropertyInitialization": false,
@@ -17,15 +17,6 @@
         "esModuleInterop": true,
         "skipLibCheck": true,
         "removeComments": true,
-        "baseUrl": "./src",
-        "noEmitOnError": true
-    },
-    "include": [
-        "src/*.ts",
-        "src/**/*.ts",
-        "src/**/*.js"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+        "noEmitOnError": true,
+    }
  }

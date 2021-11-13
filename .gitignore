@@ -108,6 +108,7 @@ lib
 tmp_result.txt
 
 # Yarn 2
+.yarn
 .yarn/*
 !.yarn/cache
 !.yarn/patches
